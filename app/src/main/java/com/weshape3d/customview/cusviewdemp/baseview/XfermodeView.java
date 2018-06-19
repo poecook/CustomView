@@ -27,7 +27,6 @@ public class XfermodeView extends View {
     public XfermodeView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
-
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
@@ -36,7 +35,6 @@ public class XfermodeView extends View {
             //关闭硬件加速
             setLayerType(View.LAYER_TYPE_SOFTWARE, null);
         }
-
         canvas.drawColor(Color.WHITE);
         Paint  paint = new Paint(Paint.ANTI_ALIAS_FLAG);
         Xfermode xfermode = new PorterDuffXfermode(PorterDuff.Mode.CLEAR);
@@ -44,7 +42,6 @@ public class XfermodeView extends View {
         paint.setXfermode(xfermode);
         drawSRC(canvas,paint);
         paint.setXfermode(null);
-
     }
     private void drawDST(Canvas canvas,Paint paint){
         paint.setColor(Color.RED);

@@ -55,6 +55,7 @@ public class ViewApiTest extends View {
     private Paint paint = null;
     private ShapeDrawable shapeDrawable;
     private void initView(){
+
         paint = new Paint();
         paint.setColor(Color.RED);
         paint.setStyle(Paint.Style.FILL);
