@@ -5,9 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
-
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+<com.weshape3d.customview.cusviewdemp.baseview.Rotate3DView
+    android:background="#00ff00"
+    android:layout_width="100dp"
+    android:layout_height="50dp" />
     <TextView
+        android:background="#ff0000"
         android:gravity="center"
         android:id="@+id/tv"
         android:textColor="#000000"

@@ -1,5 +1,6 @@
 package com.weshape3d.customview;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.weshape3d.customview.cusviewdemp.baseview.ClipView;
+import com.weshape3d.customview.cusviewdemp.baseview.Rotate3DViewGroupActivity;
 import com.weshape3d.customview.cusviewdemp.baseview.Rotate3dAnimation;
 
 public class MainActivity extends AppCompatActivity {
@@ -28,7 +30,8 @@ public class MainActivity extends AppCompatActivity {
          tv.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View v) {
-                applyRotation(0,360);
+                applyRotation(0,90);
+              //  startActivity(new Intent(MainActivity.this, Rotate3DViewGroupActivity.class));
              }
          });
 

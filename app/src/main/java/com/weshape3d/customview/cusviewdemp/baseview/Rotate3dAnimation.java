@@ -39,7 +39,7 @@ public class Rotate3dAnimation extends Animation{
 
         //camera 相机旋转
         camera.save();
-        camera.rotateY(currentDegree);
+        camera.rotateX(currentDegree);
         camera.getMatrix(matrix);
         camera.restore();
 

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".cusviewdemp.baseview.Rotate3DViewGroupActivity">
+    <com.weshape3d.customview.cusviewdemp.baseview.Rotate3DViewGroup
+        android:layout_marginTop="30dp"
+        android:id="@+id/rotate"
+        android:layout_width="100dp"
+        android:layout_height="50dp">
+        <TextView
+            android:gravity="center"
+            android:focusable="true"
+            android:background="#ff0000"
+            android:text="带符号俯拾地芥"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:gravity="center"
+            android:focusable="true"
+            android:background="#00ff00"
+            android:text="带符号俯拾地芥"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:gravity="center"
+            android:focusable="true"
+            android:background="#0000ff"
+            android:text="带符号俯拾地芥"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.weshape3d.customview.cusviewdemp.baseview.Rotate3DViewGroup>
+</LinearLayout>
