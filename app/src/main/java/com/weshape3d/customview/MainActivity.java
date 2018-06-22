@@ -1,6 +1,7 @@
 package com.weshape3d.customview;
 
 import android.content.Intent;
+import android.graphics.Matrix;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -32,6 +33,12 @@ public class MainActivity extends AppCompatActivity {
              public void onClick(View v) {
                 applyRotation(0,90);
               //  startActivity(new Intent(MainActivity.this, Rotate3DViewGroupActivity.class));
+             }
+         });
+         findViewById(R.id.mtv).setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, MarixActivity.class));
              }
          });
 

@@ -270,6 +270,7 @@ public class Rotate3DViewGroup extends ViewGroup {
                 scrollTo(mScroller.getCurrX(), mScroller.getCurrY() + mHeight * alreadyAdd);
                 if (getScrollY() < (mHeight + 2) && addCount > 0) {
                     isAdding = true;
+                    isAdding = true;
                     addPre();
                     alreadyAdd++;
                     addCount--;

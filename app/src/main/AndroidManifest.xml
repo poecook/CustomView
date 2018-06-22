@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".cusviewdemp.baseview.Rotate3DViewGroupActivity"></activity>
+        <activity android:name=".cusviewdemp.baseview.Rotate3DViewGroupActivity" />
+        <activity android:name=".MarixActivity"></activity>
     </application>
 
 </manifest>
